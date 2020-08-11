@@ -179,7 +179,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 ## bug and feature request
-This section has moved here: https://trello.com/bugs and https://trello.com/features
+This section has moved here: https://trello.com/c/ghxilBy8 was the initial card but it will be moved to a bugs and features card in my workflow
 
 ## running documentation locally
 
