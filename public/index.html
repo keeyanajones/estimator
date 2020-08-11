@@ -9,6 +9,10 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -28,16 +32,200 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div class="container" id="root"></div>
+      <div class="container">
+      <h1>estimator</h1>
+ 
+      <hr/>
+ 
+      <form>
+        <div class="form-row form-group input-group input-group-sm">
+          <label for="inputEstimateID">ID</label> -
+          <input type="text" class="form-control-sm"  id="inputEstimateID" 
+                  size="10" disabled placeholder="X8t12345" 
+                  aria-label="Sizing example input" 
+                  aria-describedby="inputGroup-sizing-sm">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+          <input type="text" class="form-control-sm"  id="inputCreatedDate" 
+                size="30" disabled placeholder="08/08/2020 01:34AM EST" 
+                aria-label="Sizing example input" 
+                aria-describedby="inputGroup-sizing-sm">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+          <label for="inputCompanyName">Company</label> -
+          <input type="text" class="form-control-sm" id="inputCompanyName" 
+                  aria-label="Sizing example input" placeholder="Web Servisual LLc."
+                  aria-describedby="inputGroup-sizing-sm" disabled>
+
+          <input type="text" class="form-control-sm"  id="inputCompanyContact" 
+                  aria-label="Sizing example input" placeholder="@keeyanajones" 
+                  aria-describedby="inputGroup-sizing-sm" disabled>
+
+        </div>       
+              
+        <div class="form-row form-group input-group input-group-sm">
+          <label for="inputCustomer">Customer </label> - 
+          <input type="text" class="form-control-sm" id="inputCustomer" 
+                 placeholder="Bob's Pizza Palace">
+
+          <input type="email" class="form-control-sm"  id="inputCustomerEmail" 
+                aria-label="Sizing example input" placeholder="@bob"
+                aria-describedby="inputGroup-sizing-sm">
+
+          <input type="text" class="form-control-sm"  id="inputModified" 
+                aria-label="Sizing example input" value="08/11/2020 01:34AM EST" 
+                aria-describedby="inputGroup-sizing-sm" 
+                size="30" disabled>
+        </div>
+
+        <div class="form-row form-group input-group input-group-sm">      
+          <button type="submit" class="btn btn-primary btn-sm">Get an Estimate</button>
+        </div>
+
+        <div class="form-row form-group input-group input-group-sm">
+          <input type="text" class="form-control-sm"  id="itemID" 
+                aria-label="Sizing example input" size="3" placeholder="1"
+                aria-describedby="inputGroup-sizing-sm">
+
+          <input type="text" class="form-control-sm"  id="itemRate" 
+                aria-label="Sizing example input" placeholder="1" 
+                aria-describedby="inputGroup-sizing-sm" 
+                size="3">
+
+          <input type="text" class="form-control-sm"  id="itemDescription" 
+                aria-label="Sizing example input" placeholder="Acer Aspire 5 Slim Laptop" 
+                aria-describedby="inputGroup-sizing-sm" 
+                size="75">
+
+          <input type="text" class="form-control-sm"  id="itemQuantity" 
+                aria-label="Sizing example input" placeholder="1" 
+                aria-describedby="inputGroup-sizing-sm" 
+                size="6">
+
+          <input type="text" class="form-control-sm"  id="itemAmount" 
+                aria-label="Sizing example input" placeholder="$349.99" 
+                aria-describedby="inputGroup-sizing-sm" 
+                size="9">
+        <sup>
+          Tax
+          <input type="checkbox" class="form-control-sm"  id="itemTax" 
+                aria-label="Sizing example input" 
+                aria-describedby="inputGroup-sizing-sm" 
+                checked>
+        </sup>
+        </div>
+
+        <div class="form-row form-group input-group input-group-sm">
+        <input type="text" class="form-control-sm"  id="itemID1" 
+                aria-label="Sizing example input" size="3" placeholder="2"
+                aria-describedby="inputGroup-sizing-sm">
+
+        <input type="text" class="form-control-sm"  id="itemRate1" 
+                aria-label="Sizing example input" placeholder="1" 
+                aria-describedby="inputGroup-sizing-sm" 
+                size="3">
+
+        <input type="text" class="form-control-sm"  id="itemDescription1" 
+                aria-label="Sizing example input" placeholder="iPhone8" 
+                aria-describedby="inputGroup-sizing-sm" 
+                size="75">
+
+        <input type="text" class="form-control-sm"  id="itemQuantity1" 
+                aria-label="Sizing example input" placeholder="1" 
+                aria-describedby="inputGroup-sizing-sm" 
+                size="6">
+
+        <input type="text" class="form-control-sm"  id="itemAmount1" 
+                aria-label="Sizing example input" placeholder="$349.99" 
+                aria-describedby="inputGroup-sizing-sm" 
+                size="9">
+        <sup>
+        Tax
+        <input type="checkbox" class="form-control-sm"  id="itemTax1" 
+                aria-label="Sizing example input" 
+                aria-describedby="inputGroup-sizing-sm" 
+                checked>
+        </sup>
+        </div>
+
+        <div class="form-row form-group input-group input-group-sm">
+          <input type="text" class="form-control-sm"  id="itemID2" 
+          aria-label="Sizing example input" size="3" placeholder="3"
+          aria-describedby="inputGroup-sizing-sm">
+          
+          <input type="text" class="form-control-sm"  id="itemRate2" 
+          aria-label="Sizing example input" placeholder="1" 
+          aria-describedby="inputGroup-sizing-sm" 
+          size="3">
+          
+          <input type="text" class="form-control-sm"  id="itemDescription2" 
+          aria-label="Sizing example input" placeholder="ipad" 
+          aria-describedby="inputGroup-sizing-sm" 
+          size="75">
+          
+          <input type="text" class="form-control-sm"  id="itemQuantity2" 
+          aria-label="Sizing example input" placeholder="1" 
+          aria-describedby="inputGroup-sizing-sm" 
+          size="6">
+          
+          <input type="text" class="form-control-sm"  id="itemAmount2" 
+          aria-label="Sizing example input" placeholder="$349.99" 
+          aria-describedby="inputGroup-sizing-sm" 
+          size="9">
+          <sup>
+          Tax
+          <input type="checkbox" class="form-control-sm"  id="itemTax2" 
+          aria-label="Sizing example input" 
+          aria-describedby="inputGroup-sizing-sm" 
+          checked>
+          </sup>
+          </div>
+          
+        <div class="form-row form-group input-group input-group-sm">      
+          <button type="submit" class="btn btn-secondary btn-sm">Add an Item</button>
+          <button type="submit" class="btn btn-secondary btn-sm">Add file</button> 
+        </div>
+        
+        <hr/>
+        
+        <div class="form-row form-group input-group input-group-sm">
+          <button type="submit" class="btn btn-success btn-sm">Description</button> 
+          <button type="submit" class="btn btn-info btn-sm">Evaluation</button> 
+          <button type="submit" class="btn btn-dark btn-sm">Questions</button> 
+          <button type="submit" class="btn btn-warning btn-sm">Timeline</button> 
+          <button type="submit" class="btn btn-dark btn-sm">Materials</button> 
+          <button type="submit" class="btn btn-dark btn-sm">Labor</button> 
+          <button type="submit" class="btn btn-dark btn-sm">Equipment</button> 
+        </div>
+        <div class="form-row form-group input-group input-group-sm">
+          <button type="submit" class="btn btn-outline-dark btn-sm">Competition</button> 
+          <button type="submit" class="btn btn-outline-dark btn-sm">Profit Margin</button> 
+          <button type="submit" class="btn btn-outline-dark btn-sm">Payment Terms</button> 
+          <button type="submit" class="btn btn-outline-dark btn-sm">Benefits</button> 
+          <button type="submit" class="btn btn-outline-dark btn-sm">Circumstances</button> 
+          <button type="submit" class="btn btn-outline-dark btn-sm">History</button> 
+          <button type="submit" class="btn btn-outline-danger btn-sm">Signatures</button> 
+        </div>
+
+        <hr/>
+        
+        subTotal  <input type="text" class="form-control-md"  id="subTotal" 
+                          aria-label="Sizing example input" placeholder="$349.99" 
+                          aria-describedby="inputGroup-sizing-sm" 
+                          size="9">
+
+        totalTax   <input type="text" class="form-control-md"  id="totalTax" 
+                          aria-label="Sizing example input" placeholder="$39.99" 
+                          aria-describedby="inputGroup-sizing-sm" 
+                          size="9">
+
+        total     <input type="text" class="form-control-md"  id="total" 
+                      aria-label="Sizing example input" placeholder="$349.99" 
+                      aria-describedby="inputGroup-sizing-sm" 
+                      size="9">
+
+      </form>
+      <br/><br/>            
+    </div>
+  </div>
   </body>
 </html>

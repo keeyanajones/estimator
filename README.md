@@ -1,4 +1,114 @@
+# estimator
+estimator
+
+## what does it do
+find an estimate, or approximation, a value that is usable for some purpose even if input data may be incomplete, uncertain, or unstable. The value is usable because it is derived from the best information available. 
+
+## what is it
+- files
+- CREATED : Aug 8, 2020
+
+## technology used
+JavaScript, React, Mongodb, Express, and Node.
+
+## ambition of project
+To create an application to track estimates 
+
+## stage
+IN DEVELOPMENT
+
+## known issues / thing not properly done
+
+## Table of Content
+- what does it do
+- what is it
+- technology used
+- ambition of project
+- stage
+- known issues/ thing not properly done
+- quick start
+- status
+- what's included
+- bug and feature request
+- running documentation locally
+- pervious releases
+- contributing
+- community
+- versioning
+- creators
+- thanks/backers/sponsors
+- copyright and license
+
+## quick start
+Quick setup — if you’ve done this kind of thing before
+
+or
+
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+…or create a new repository on the command line
+
+<pre>
+echo "# estimator" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/keeyanajones/estimator.git
+git push -u origin master
+</pre>                
+
+…or push an existing repository from the command line
+
+<pre>
+git remote add origin https://github.com/keeyanajones/estimator.git
+git push -u origin master
+</pre>
+
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+ProTip! Use the URL for this page when adding GitHub as a remote.
+
+## status
+- STATUS : Good
+
+## what's included
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Activity
+-evaluate the job
+-review what needs to be done
+-ask questions
+-timing with allowances for delay
+-is additional help required
+-figure out materials
+-find out how the competition does it
+-be a positive and warm business with your customer relationship
+-focus on customer benefits
+-deliver estimate quickly
+-schedule a follow up
+-label everything appropriately
+-describe the work to be performed
+-include credentials and disclaimers
+-give alternative estimates for different circumstances
+-sign and date
+
+
+
+### Data
+-formal data
+-quotation
+-duration
+-materials
+-labor
+-equipment
+-profit margin
+-total cost for services
+-how long is it valid
+-optional payment terms
+-signature
+-date
+
 
 ## Available Scripts
 
@@ -66,3 +176,27 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## bug and feature request
+This section has moved here: https://trello.com/bugs and https://trello.com/features
+
+## running documentation locally
+
+## previous releases
+
+## contributing
+
+## community
+This scection has moved here: https://discord.gg/community 
+## versioning
+
+## creators
+ - 2020 Keeyana Jones
+
+## thanks/backers/sponsors
+
+## copyright and license
+ - MIT License Copyright (c) 2020 Keeyana Jones
+
+
